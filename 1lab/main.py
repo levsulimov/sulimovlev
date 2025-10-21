@@ -18,12 +18,12 @@ for row in table:
         print(f"{number:2}", end=" ")
     print()
 
-print("\nМаксимальные числа в каждой строке:")
+print("\nМаксимальное число в каждой строке:")
 for i in range(n):
     max_in_row = max(table[i])
     print(f"Строка {i+1}: {max_in_row}")
 
-print("\nМаксимальные числа в каждом столбце:")
+print("\nМаксимальное число в каждом столбце:")
 for j in range(m):
     column_numbers = []
     for i in range(n):
